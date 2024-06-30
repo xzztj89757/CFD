@@ -23,7 +23,7 @@ a0 = np.sqrt(gamma * p0 / r0)
 u0 = a0 * mach * np.cos(alpha)
 v0 = a0 * mach * np.sin(alpha)
 #epsilon = 0.05 * a0
-epsilon = -1
+epsilon = 0.01
 
 
 def read_mesh(filename):
